@@ -1,10 +1,10 @@
-# About
+# О проэкте
 
-Add some information about your project here.
+Добавьте сюда информацию о вашем проекте.
 
-# Installation
+# Установка
 
-You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
+Вы можете использовать кнопку ниже, чтобы установить встроенное программное обеспечение непосредственно на свое устройство через USB из браузера.
 
 <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
 
