@@ -1,21 +1,19 @@
-# ESPHome Project Template
+# Шаблон проекта ESPHome
+Это хранилище служит шаблоном для создания нового проекта ESPHome.
 
-This repo serves as a template for creating a new ESPHome project.
+Он включает в себя рабочий процесс GitHub, который автоматически создает конфигурацию (конфигурации), а затем развертывает простой
+веб-сайт через страницы GitHub, который использует [ESP Web Tools](https://esphome.github.io/esp-web-tools /), чтобы пользователи
+могли легко установить ваш проект на свое устройство.
 
-It includes a GitHub workflow that will automatically build the configuration(s) and then deploys a simple 
-website via GitHub pages that utilises [ESP Web Tools](https://esphome.github.io/esp-web-tools/) for users to 
-easily install your project onto their device.
-
-## Instructions
-
-1. Use this repo template to [generate](https://github.com/esphome/esphome-project-template/generate) your own repository.
-   - Make sure to check `Include all branches` so that GitHub Pages is automatically enabled.
-2. Clone your new repository.
-3. Add your project specific YAML configuration(s) along with the contents of the `project-template-....yaml` files, taking note of the comments in this template file and name accordingly.
-4. 
-    a. Update [.github/workflows/publish.yml](.github/workflows/publish.yml) to contain your own YAML config filename(s).
-    b. Update [.github/workflows/ci.yml](.github/workflows/ci.yml) to contain your own YAML config filename(s).
-5. Update [static/_config.yml](static/_config.yml) to change the title, description and basic theme of the generated website.
-6. Add more content to the [static/index.md](static/index.md) file to explain your project.
-    Make sure to leave the installation code tags in place so users get the install button.
-7. Push your changes to the repository and GitHub Actions will automatically build and deploy your project.
+## Инструкции
+1. Используйте этот шаблон репозитария для [создания](https://github.com/esphome/esphome-project-template/generate ) вашего собственного репозитория.
+- Обязательно установите флажок "Include all branches" - включить все ветки, чтобы автоматически включить GitHub Pages.
+2. Клонируйте свой новый репозиторий.
+3. Добавьте конфигурацию YAML, специфичную для вашего проекта, вместе с содержимым файлов "project-template-....yaml", приняв к сведению комментарии в этом файле шаблона и присвоив ему соответствующее имя.
+4.
+a. Обновите [.github/workflows/publish.yml](.github/workflows/publish.yml), чтобы он содержал ваши собственные имена файлов конфигурации YAML.
+b. Обновите [.github/workflows/ci.yml](.github/workflows/ci.yml), чтобы он содержал ваши собственные имена файлов конфигурации YAML.
+5. Обновите [static/_config.yml](статический/_config.yml), чтобы изменить название, описание и основную тему созданного веб-сайта.
+6. Добавьте больше содержимого в файл [static/index.md](static/index.md), чтобы объяснить ваш проект.
+Убедитесь, что теги кода установки оставлены на месте, чтобы пользователи могли нажать кнопку установки.
+7. Отправьте свои изменения в репозиторий, и GitHub Actions автоматически создаст и развернет ваш проект.
